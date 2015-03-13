@@ -23,6 +23,7 @@ public class CrowdEntry {
 	@Column(name = "CROWDENTRY_ID")
 	private Long id;
 
-	private String servername;
-	private String deploymentame;
+	private String name;
+	private String hostOrIp;
+	private int port;
 }
